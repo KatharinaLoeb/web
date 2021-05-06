@@ -1,24 +1,194 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>MercedesBenz</title>
-    <style type="text7css">
-    
-     body {
-     background-color: #BDBDBD;
-     }
-     
-     #bodymitte {
-     background-color: black;
-     border: black 2px solid;
-     width:1000px;
-     height: 1000px;
-     }
+    <style type="text/css">
+      body {
+        background-color: #6E6E6E;
+      }
+      #bodymitte {
+        background-color: black;
+        border: 2px black solid;
+        width: 1200px;
+        height: 1950px;
+      }
+      #logo {
+        background-image: url(Logo.jpg);
+        background-repeat: no-repeat;
+        height: 180px;
+      }
+      #menu {
+        border-top: 3px white solid;
+        border-bottom: 3px white solid;
+        height: 50px;
+      }
+      a.menu1 {
+        color: white;
+        font-size: 45px;
+        text-decoration: none;
+        border-right: 2px solid #A4A4A4;
+        padding-left:30px;
+        padding-right:30px;
+      }
+      a.menu1:hover {
+        background-color: white;
+        color: black;
+      }
+      a.menu2 {
+        color: white;
+        font-size: 45px;
+        text-decoration: none;
+        padding-left:30px;
+        padding-right:40px;
+      }
+      a.menu2:hover {
+        background-color: white;
+        color: black;
+      }
+      h1.oben {
+        color: white;
+        font-size: 55px;
+        position: relative;
+        left: 350px;
+        bottom: 20px;
+      }
+      #Bildlinks {
+        background-image: url(Autos.jpg);
+        background-repeat: no-repeat;
+        height: 262px;
+        width: 500px;
+        border:1px #6E6E6E solid;
+        position: relative;
+        left: 5px;
+        bottom:30px;
+      }
+      #Textrechts {
+        position: relative;
+        left: 550px;
+        bottom:290px;
+      }
+      b {
+        color: white;
+        font-size: 25px;
+      }
+      p {
+        color: white;
+        font-size: 20px;
+      }
+      h1.unten {
+        color: white;
+        font-size: 55px;
+        position: relative;
+        left: 350px;
+        bottom: 160px;
+      }
+      #AMG-GTBild {
+        background-image: url(AMG.jpg);
+        background-repeat: no-repeat;
+        height: 262px;
+        width: 800px;
+        background-color: red;
+        border:1px #6E6E6E solid;
+        position: relative;
+        left: 150px;
+        bottom:150px;
+      }
+      a.AMG-GT {
+        color: white;
+        font-size: 23px;
+        text-decoration: none;
+        position: relative;
+        top: 235px;
+        left:400px;
+      }
+      a.AMG-GT:hover {
+        color: black;
+      }
+      #AMG-C63Bild {
+        background-image: url(C63-AMG.jpg);
+        background-repeat: no-repeat;
+        height: 635px;
+        width: 800px;
+        background-color: red;
+        border:1px #6E6E6E solid;
+        position: relative;
+        left: 150px;
+        bottom:120px;
+      }
+      a.AMG-C63 {
+        color: white;
+        font-size: 23px;
+        text-decoration: none;
+        position: relative;
+        top: 605px;
+        left:305px;
+      }
+      a.AMG-C63:hover {
+        color: black;
+      }
+      #Abtrennstrich {
+        border-bottom: 2px white solid;
+        position: relative;
+        bottom: 100px;
+      }
+      #Kontakt {
+        position: relative;
+        bottom:80px;
+        left:250px;
+      }
+      b.K {
+        color: white;
+      }
+      p.K {
+        color: white;
+      }
+      #Oeffnung {
+        position: relative;
+        bottom:295px;
+        left:700px;
+      }
+
     </style>
   </head>
   <body>
     <div id="bodymitte">
+      <div id="logo"></div>
+      <div id="menu">
+        <a class="menu1"href="Modelle.html">Modelle</a>
+        <a class="menu1"href="Servicetermin .html">Servicetermin </a>
+        <a class="menu1"href="Karriere.html">Karriere</a>
+        <a class="menu2"href="Über uns.html">Über uns</a>
       </div>
+      <h1 class="oben">Startseite</h1>
+      <div id="Bildlinks"></div>
+      <div id="Textrechts">
+        <b>Herzlich Willkommen bei Mercedes Benz GmbH</b>
+        <p>Mit dem Kauf Ihres Mercedes Benz fängt unser Service erst richtig an.</p>
+        <p>Ob Wartung, Hol- und Bringservice oder Pannenhilfe. </p>
+      </div>
+      <h1 class="unten">Top-Modelle</h1>
+      <div id="AMG-GTBild">
+          <a  class="AMG-GT"href="AMG-GT.html">AMG-GT</a>
+        </div>
+        <div id="AMG-C63Bild">
+          <a  class="AMG-C63"href="Mercedes-AMG C 63.html">Mercedes-AMG C 63</a>
+      </div>
+      <div id="Abtrennstrich"></div>
+      <div id="Kontakt">
+        <b class="K">Kontakt</b>
+        <p class="K">Tel: 0211 7722 44 56</p>
+        <p class="K">Fax: 0211 7722 44 57</p>
+        <p class="K">E-Mail: MercedesBenz@duesseldorf.de</p>
+        <p class="K">Internetseite: www.MercedesBenz.de</p>
+      </div>
+      <div id="Oeffnung">
+        <b class="O">Öffnungszeiten</b>
+        <p class="O">Mo-Fr: 09:00-20:00</p>
+        <p class="O">Samstag: 09:00-15:00</p>
+        <p class="O">Sonntag: Geschlossen</p>
+        </div>
+ 
+    </div>
   </body>
 </html>
