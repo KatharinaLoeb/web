@@ -2,181 +2,206 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>MercedesBenz</title>
+    <title>Mercedes-Benz</title>
     <style type="text/css">
-
       * {
         margin: 0px;
         padding: 0px;
       }
 
       body {
-        background-color: #6E6E6E;
+        background-color: #BDBDBD;
+        overflow-y: scroll;
+        overflow-x: hidden;
       }
 
       #bodymitte {
         background-color: black;
-        border: 2px black solid;
-        height: 1715px;
-        width: 1150px;
-        margin: auto;
+        border: 2px solid black;
+        height: 2500px;
+        width: 1400px;
+        position: relative;
+        left: 100px;
       }
 
       #logo {
-        background-image: url(https://user-images.githubusercontent.com/77481843/117303067-97bf3380-ae7c-11eb-97bc-1b25bdf9dd1e.jpeg);
+        background-image: url(https://user-images.githubusercontent.com/77481843/119272196-1b12b000-bc05-11eb-8126-ec23cf41ab79.jpg);
         background-repeat: no-repeat;
-        height:180px;
+        height: 180px;
       }
 
       #menu {
-        border-top: 3px white solid;
-        border-bottom: 3px white solid;
-        height: 45px;
+        border-top: 6px white double;
+        border-bottom: 6px white double;
+        padding: 10px;
         position: relative;
-        bottom: 30px;
-
+        bottom: 20px;
       }
 
       a.menu1 {
-        color: white;
-        font-size:41px;
+        color: #BDBDBD;
+        font-size: 50px;
         text-decoration: none;
-        padding-left: 47px;
-        padding-right: 47px;
-        border-right: 2px solid #A4A4A4;
+        padding-left:20px;
+        padding-right:20px;
+        border-right: 2px solid #BDBDBD;
       }
 
       a.menu2 {
-        color: white;
-        font-size:41px;
+        color: #BDBDBD;
+        font-size: 50px;
         text-decoration: none;
-        padding-left: 69px;
-        padding-right: 69px;
+        padding-left:20px;
+        padding-right:20px;
       }
 
       a.menu1:hover {
-        background-color: white;
         color: black;
+        background-color: white;
       }
 
       a.menu2:hover {
-        background-color: white;
         color: black;
+        background-color: white;
       }
 
-      h1.oben {
-        color: white;
-        font-size: 45px;
-        text-align: center;
-        position: relative;
-        bottom: 15px;
-      }
-
-      #Bildlinks {
-        background-image: url(https://user-images.githubusercontent.com/77481843/117303093-a0176e80-ae7c-11eb-82a3-19f76c26381e.jpeg);
+      #Bild {
+        background-image: url(https://user-images.githubusercontent.com/77481843/119272194-1a7a1980-bc05-11eb-8bba-2e5a21e94513.jpg);
         background-repeat: no-repeat;
         height: 262px;
         width: 500px;
-        border:1px #6E6E6E solid;
-      }
-
-      #Textrechts {
+        border: 2px #848484 solid;
         position: relative;
-        left: 550px;
-        bottom:250px;
+        top: 20px;
+        left: 25px;
       }
 
-      b {
+      b.Text {
         color: white;
-        font-size: 25px;
+        font-size: 35px;
+        position: relative;
+        bottom: 220px;
+        left: 600px;
       }
 
-      p {
+      p.Text {
         color: white;
-        font-size: 20px;
+        font-size: 21px;
+        position: relative;
+        bottom: 210px;
+        left: 600px;
       }
 
-      h1.unten {
+      h1 {
         color: white;
-        font-size: 45px;
+        font-style: italic;
         text-align: center;
         position: relative;
-        bottom: 50px;
+        bottom: 30px;
+      }
+
+      #AMG-GT {
+        border: 2px solid #848484;
+        height: 800px;
+        width: 1200px;
+        margin-left: 100px;
       }
 
       #AMG-GTBild {
-        background-image: url(https://user-images.githubusercontent.com/77481843/117303131-a7d71300-ae7c-11eb-9880-df76d9c5c98b.jpeg);
+        background-image: url(https://user-images.githubusercontent.com/77481843/119272190-177f2900-bc05-11eb-8c12-b367c1a4ee11.jpg);
         background-repeat: no-repeat;
-        height: 262px;
-        width: 800px;
-        background-color: red;
-        border:1px #6E6E6E solid;
-        position: relative;
-        left: 150px;
-        bottom:40px;
+        height: 675px;
+        width: 1200px;
       }
 
-      a.AMG-GT {
+      #AMG-GTBild:hover {
+        background-image: url(https://user-images.githubusercontent.com/77481843/119272188-164dfc00-bc05-11eb-9de0-189fe1e0b9b4.jpg);
+        background-repeat: no-repeat;
+        height: 675px;
+        width: 1200px;
+      }
+
+      p.GT {
         color: white;
-        font-size: 23px;
+        font-size: 40px;
+        text-align: center;
+      }
+
+      a.GT {
+        color: white;
+        font-size: 35px;
+        border: 2px solid white;
+        padding: 5px;
         text-decoration: none;
         position: relative;
-        top: 235px;
-        left:400px;
+        left: 45%;
+        top: 10px;
       }
 
-      a.AMG-GT:hover {
-        color: black;
+      a.GT:hover {
+        color: red;
+        border: 2px solid red;
       }
 
-      #AMG-C63Bild {
-        background-image: url(https://user-images.githubusercontent.com/77481843/117303081-9beb5100-ae7c-11eb-9640-05ebffd2510e.jpeg);
+      #AMG-S63 {
+        border: 2px solid #848484;
+        height: 800px;
+        width: 1200px;
+        margin-left: 100px;
+        position: relative;
+        top: 20px;
+      }
+
+      #AMG-S63Bild {
+        background-image: url(https://user-images.githubusercontent.com/77481843/119272192-1948ec80-bc05-11eb-9f99-7cdeab546cb2.jpg);
         background-repeat: no-repeat;
-        height: 635px;
-        width: 800px;
-        background-color: red;
-        border:1px #6E6E6E solid;
-        position: relative;
-        left: 150px;
-        bottom:30px;
+        height: 675px;
+        width: 1200px;
       }
 
-      a.AMG-C63 {
-        color: white;
-        font-size: 23px;
-        text-decoration: none;
-        position: relative;
-        top: 605px;
-        left:305px;
-      }
-
-      a.AMG-C63:hover {
-        color: black;
+      #AMG-S63Bild:hover {
+        background-image: url(https://user-images.githubusercontent.com/77481843/119272191-18b05600-bc05-11eb-8479-4ca0eab8dcfc.jpg);
+        background-repeat: no-repeat;
+        height: 675px;
+        width: 1200px;
       }
 
       #Abtrennstrich {
         border-bottom: 2px white solid;
-        margin-bottom: 2px;
+        position: relative;
+        top: 30px;
       }
 
       #Kontakt {
+        margin-left: 150px;
         position: relative;
-        bottom:-10px;
-        left:250px;
+        top: 30px;
       }
 
       b.K {
         color: white;
+        font-size: 30px;
       }
 
       p.K {
         color: white;
+        font-size: 25px;
       }
 
       #Oeffnung {
         position: relative;
-        bottom:110px;
-        left:700px;
+        left: 800px;
+        bottom: 115px;
+      }
+
+      b.O {
+        color: white;
+        font-size: 30px;
+      }
+
+      p.O {
+        color: white;
+        font-size: 25px;
       }
 
     </style>
@@ -185,41 +210,42 @@
     <div id="bodymitte">
       <div id="logo"></div>
       <div id="menu">
-        <a class="menu1"href="Modelle.html">Modelle</a>
-        <a class="menu1"href="Servicetermin .html">Servicetermin </a>
-        <a class="menu1"href="Karriere.html">Karriere</a>
-        <a class="menu2"href="Über uns.html">Über uns</a>
+        <a class="menu1"href="https://www.mercedes-benz.de/passengercars.html?group=all&subgroup=see-all&view=BODYTYPE#modeltabs">Modelle</a>
+        <a class="menu1"href="https://www.mercedes-benz.de/passengercars/find-buy/online-stores/stage.module.html">Online kaufen</a>
+        <a class="menu1"href="https://www.mercedes-benz.de/passengercars/mercedes-benz-cars/announcement/keep-me-informed.module.html">Probefahrt buchen</a>
+        <a class="menu1"href="https://www.mercedes-benz.de/passengercars/about-us/jobs-career.html">Karriere</a>
+        <a class="menu2"href="https://www.mercedes-benz.de/passengercars/contact/contact-us/stage.module.html">Kontakt</a>
       </div>
-      <h1 class="oben">Startseite</h1>
-        <div id="Bildlinks"></div>
-    <div id="Textrechts">
-      <b>Herzlich Willkommen bei Mercedes Benz GmbH</b>
-      <p>Mit dem Kauf Ihres Mercedes Benz fängt unser Service erst richtig an.</p>
-      <p>Ob Wartung, Hol- und Bringservice oder Pannenhilfe. </p>
-    </div>
-    <h1 class="unten">Top-Modelle</h1>
-    <div id="AMG-GTBild">
-        <a  class="AMG-GT"href="AMG-GT.html">AMG-GT</a>
+      <div id="Bild"></div>
+      <b class="Text">Herzlich Willkommen bei Mercedes Benz GmbH.</b>
+      <p class="Text">Mit dem Kauf Ihres Mercedes Benz fängt unser Service erst richtig an. Ob Wartung, Hol- und</p>
+      <p class="Text">Bringservice oder Pannenhilfe.</p>
+      <h1>Top-Modelle</h1>
+      <div id="AMG-GT">
+        <div id="AMG-GTBild"></div>
+        <p class="GT">Mercedes-Benz AMG GT</p>
+        <a class="GT" href="https://www.autoscout24.at/angebote/mercedes-benz-amg-gt-black-series-black-matt-black-series-limited-edi-benzin-schwarz-1cc37f40-6ef1-4d35-a0af-37d53f99e82b?cldtidx=7&cldtsrc=listPage&searchId=1128223314">KAUFEN</a>
       </div>
-      <div id="AMG-C63Bild">
-        <a  class="AMG-C63"href="Mercedes-AMG C 63.html">Mercedes-AMG C 63</a>
-    </div>
-    <div id="Abtrennstrich"></div>
-    <div id="Kontakt">
-      <b class="K">Kontakt</b>
-      <p class="K">Tel: 0211 7722 44 56</p>
-      <p class="K">Fax: 0211 7722 44 57</p>
-      <p class="K">E-Mail: MercedesBenz@duesseldorf.de</p>
-      <p class="K">Internetseite: www.MercedesBenz.de</p>
-    </div>
-    <div id="Oeffnung">
-      <b class="O">Öffnungszeiten</b>
-      <p class="O">Mo-Fr: 09:00-20:00</p>
-      <p class="O">Samstag: 09:00-15:00</p>
-      <p class="O">Sonntag: Geschlossen</p>
+      <div id="AMG-S63">
+        <div id="AMG-S63Bild"></div>
+        <p class="GT">Mercedes-Benz S 63 AMG</p>
+        <a class="GT" href="https://hey.car/vehicle/6627205d-9221-41bc-a3a7-4030c7a82ef8?dealerId=87bf5d11-5568-4a67-98dc-92f6f51ab07d">KAUFEN</a>
       </div>
+      <div id="Abtrennstrich"></div>
+      <div id="Kontakt">
+        <b class="K">Kontakt</b>
+        <p class="K">Tel: 0211 7722 44 56</p>
+        <p class="K">Fax: 0211 7722 44 57</p>
+        <p class="K">E-Mail: MercedesBenz@duesseldorf.de</p>
+        <p class="K">Internetseite: www.MercedesBenz.de</p>
       </div>
-
-
+      <div id="Oeffnung">
+        <b class="O">Öffnungszeiten</b>
+        <p class="O">Mo-Fr: 09:00-20:00</p>
+        <p class="O">Samstag: 09:00-15:00</p>
+        <p class="O">Sonntag: Geschlossen</p>
+        </div>
+      </div>
   </body>
 </html>
+
